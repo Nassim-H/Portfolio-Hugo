@@ -1,0 +1,30 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'iutdelens'
+
+[[menu.main]]
+  name = "À propos"
+  url = "/a-propos-de"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+
+[[menu.main]]
+  name = "Projets"
+  url = "/projets"
+
+[[menu.social]]
+name = "GitHub"
+url = "https://github.com/yoajly"
+pre = "<i class='fab fa-github'></i>"
+
+[[menu.footer]]
+  name = "À propos"
+  url = "/a-propos-de"
+
+[params]
+  author = "Moi"
+  authorImage = "/images/mon_avatar.png"
+
